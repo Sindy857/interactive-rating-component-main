@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+--Orange: hsl(25, 97%, 53%);
+
+/* ### Neutral */
+
+--White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--VeryDarkBlue);
+    color: var(--White);
+    font-family: 'Overpass', sans-serif;
+    
+}
+
+main, #thankYou {
+    background: linear-gradient(var(--DarkBlue), var(--VeryDarkBlue));
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+    padding: 2rem;
+    box-shadow: 1px 1px 1px var(--DarkBlue);
+}
+
+#thankYou {
+    visibility: hidden;
+    text-align: center;
+}
+
+
+#star {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--DarkBlue);
+    box-shadow: 1px 1px 1px var(--VeryDarkBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 1.5rem 0;
+}
+
+p {
+    line-height: 150%;
+    font-weight: lighter;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 2rem 0;
+}
+
+ul li {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--DarkBlue);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+button {
+    width: 100%;
+    background-color: var(--Orange);
+    padding: 0.5rem 0;
+    border-radius: 2rem;
+    border: none;
+}
+
+button:hover {
+    transform: scale(1.02);
+    background-color: #fc8b3a;
+}
+
+ul li:hover {
+    transform: scale(1.02);
+    background-color: var(--VeryDarkBlue);
+}
+
+h3 {
+    margin-top: 1.5rem;
+    background-color: var(--DarkBlue);
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--Orange);
+}
+
