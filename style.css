@@ -111,3 +111,27 @@ h3 {
     color: var(--Orange);
 }
 
+@media screen and (max-width: 470px){
+    main, #thankYou {
+        width: 350px;
+        height: 350px;
+       }
+
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    main, #thankYou {
+        width: 250px;
+        height: 250px;
+       }
+
+    html {
+        font-size: 10px;
+    }
+}
+
+
+
