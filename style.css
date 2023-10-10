@@ -112,10 +112,20 @@ h3 {
 }
 
 @media screen and (max-width: 470px){
-    main, #thankYou {
-        width: 350px;
-        height: 350px;
-       }
+   main, #thankYou {
+    width: 350px;
+    height: 350px;
+    font-size: 12px;
+   }
+
+   main h1 {
+    margin-top: 1rem;
+   }
+
+   #thankYou h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   }
 
     html {
         font-size: 16px;
@@ -130,7 +140,8 @@ h3 {
        }
 
        #thankYou h1 {
-        margin: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
        }
 
     html {
